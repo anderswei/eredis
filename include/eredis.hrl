@@ -1,5 +1,5 @@
-%% Public types
-
+%% Public t~ypes
+-type queue() :: any().
 -type reconnect_sleep() :: no_reconnect | integer().
 
 -type option() :: {host, string()} | {port, integer()} | {database, string()} | {password, string()} | {reconnect_sleep, reconnect_sleep()}.
